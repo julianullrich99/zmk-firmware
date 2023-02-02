@@ -10,7 +10,7 @@
 #define CONTROLS 2
 #define NEO_ALPHA 3
 #define NEO_EXTRA 4
-#define BTCTL 4
+#define BTCTL 5
 
 / {
     behaviors {
@@ -62,6 +62,23 @@
             >;
         };
 
+        control_layer {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│           │           │            │           │           │    │           │           │            │           │           │
+            &kp F1      &kp F2        &kp F3      &kp F4      &kp F5            &kp F6      &kp F7      &kp F8      &kp F9        &kp F10
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│            │           │           │          │            │   │            │           │            │           │           │
+            &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│           │           │           │            │           │    │           │           │           │            │           │
+            &kp K_MUTE &kp K_VOL_UP &kp K_VOL_DOWN &kp K_PP   &kp K_NEXT      &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12        //&kp HOME  &kp TAB       &kp DEL     &kp END       &kp PRINTSCREEN
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                                &trans        &trans              &kp LSHFT     &trans
+        //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
+
 
         neo_layer {
             bindings = <
@@ -73,7 +90,7 @@
             &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-           &bt BT  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
+           &kp F1  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -91,7 +108,7 @@
             &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-           &bt BT  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
+           &kp F1  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
