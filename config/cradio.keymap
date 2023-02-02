@@ -72,7 +72,7 @@
             &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-            &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12
+           &trans         &trans        &trans       &trans     &trans      &kp HOME  &kp TAB       &kp DEL     &kp END       &kp PRINTSCREEN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                                 &trans        &trans              &kp LSHFT     &trans
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
