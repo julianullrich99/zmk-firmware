@@ -87,7 +87,7 @@
             &kp U       &kp I          &kp A       &kp E        &kp O         &kp S          &kp N      &kp R         &kp T       &ht Z D
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-            &kp LBKT    &kp COLON &kp SINGLE_QUOTE  &kp P        &kp Y         &kp B          &kp M      &kp COMMA  &kp DOT       &ht J
+            &kp LBKT    &kp COLON &kp SINGLE_QUOTE  &kp P        &kp Y         &kp B          &kp M      &kp COMMA  &kp DOT       &kp J
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                        &lt CONTROLS BSPC   &kp LSHFT        &lt NUMBERS SPACE  &lt NEO_EXTRA ENTER
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
