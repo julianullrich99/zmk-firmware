@@ -19,17 +19,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            bindings = <&kp>, <&kp>;
-        };
-        hth: hold_tap {
-            label = "hold_tap_hold";
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
     };
@@ -48,7 +38,7 @@
         //│  Z        │  X         │  C        │  V        │  B         │  │  N         │  M        │ , <       │ . >        │ / ?       │
             &ht LGUI Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                         &lt CONTROLS BSPC   &kp LSHFT     &lt NUMBERS SPACE  &hth CAPS ENTER
+                                         &lt CONTROLS BSPC   &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
