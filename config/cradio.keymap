@@ -22,7 +22,7 @@
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
-        }
+        };
         hth: hold_tap {
             label = "hold_tap_hold";
             compatible = "zmk,behavior-hold-tap";
