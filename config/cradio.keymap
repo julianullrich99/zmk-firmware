@@ -53,7 +53,7 @@
             &trans      &trans     &kp PLUS     &kp MINUS     &kp BSPC         &kp COMMA       &kp N4      &kp N5        &kp N6   &kp RBRC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-           &to BTCTL  &to NEO_ALPHA &kp ASTRK     &kp SLASH     &trans         &kp DOT     &kp N1     &kp N2       &kp N3       &trans
+           &to BTCTL  &tog NEO_ALPHA &kp ASTRK     &kp SLASH     &trans         &kp DOT     &kp N1     &kp N2       &kp N3       &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                                  &kp BSPC     &kp LSHFT        &trans     &kp N0
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -84,10 +84,10 @@
             &kp X      &kp V        &kp L           &kp C      &kp W            &kp K      &kp H         &kp G      &kp F        &kp Q
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│            │           │           │          │            │   │            │           │            │           │           │
-            &kp U       &kp I          &kp A       &kp E        &kp O         &kp S          &kp N      &kp R         &kp T       &ht Z D
+            &kp U       &ht LALT I    &ht LCTRL A       &kp E     &kp O         &kp S     &kp N      &ht LCTRL R    &ht LALT T   &ht Z D
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-            &kp LBKT    &kp COLON &kp SINGLE_QUOTE  &kp P        &kp Y         &kp B          &kp M      &kp COMMA  &kp DOT       &kp J
+            &kp LBKT  &kp SEMICOLON &kp SINGLE_QUOTE  &kp P        &kp Y         &kp B          &kp M      &kp COMMA  &kp DOT       &kp J
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                        &lt CONTROLS BSPC   &kp LSHFT        &lt NUMBERS SPACE  &lt NEO_EXTRA ENTER
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -99,7 +99,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│   …       │   _       │   [        │     ]     │     ^     │    │    !      │    <      │     >      │   =       │    &      │
-            &kp F1      &kp QUESTION        &kp F3      &kp F4      &kp F5            &kp F6      &kp F7      &kp F8      &kp F9        &kp F10
+            &kp F1      &kp QUESTION  &kp RA(N8)  &kp RA(N9)   &kp GRAVE            &kp F6      &kp F7      &kp F8      &kp F9        &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     \      │     /     │    {      │     }    │      *     │   │    ?       │       (   │      )     │     -     │     :     │
             &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12
