@@ -85,7 +85,7 @@
             &kp GRAVE    &trans     &kp PG_UP     &kp PG_DN     &trans         &kp LCTRL   &kp N7       &kp N8       &kp N9     &kp LBKT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│            │           │           │          │            │   │            │           │            │           │           │
-            &trans      &trans     &kp PLUS     &kp MINUS     &kp BSPC         &kp COMMA       &kp N4      &kp N5        &kp N6   &kp RBRC
+            &trans      &trans     &kp PLUS     &kp MINUS     &kp BSPC         &kp COMMA       &kp N4      &kp N5        &kp N6   &kp SEMICOLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
            &to BTCTL  &tog NEO_ALPHA &kp ASTRK     &kp SLASH     &trans         &kp DOT     &kp N1     &kp N2       &kp N3       &trans
@@ -117,7 +117,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-            &reset     &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans      &reset
+            &sys_reset     &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans      &reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
